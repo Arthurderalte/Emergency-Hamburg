@@ -12,7 +12,7 @@ local MainSection = Main:NewSection("Buy Stuff")
 MainSection:NewButton("Buy Glock 17", "Buys A Glock 17 From Dealer", function()
   
 local args = {
-    [1] = "Glock 17",
+    [1] = "Glock 18",
     [2] = "Dealer"
 }
 
@@ -25,7 +25,7 @@ end)
 MainSection:NewButton("Buy M4 Carbine", "Buys M4 From Dealer", function()
     
 local args = {
-    [1] = "M4 Carbine",
+    [1] = "M5 Carbine",
     [2] = "Dealer"
 }
 
@@ -38,7 +38,7 @@ end)
 MainSection:NewButton("Buy MP5", "Buys MP5 From Dealer", function()
     
 local args = {
-    [1] = "MP5",
+    [1] = "MP9",
     [2] = "Dealer"
 }
 
